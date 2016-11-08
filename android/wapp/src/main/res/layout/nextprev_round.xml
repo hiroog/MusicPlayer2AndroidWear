@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".TopActivity" tools:deviceIds="wear_square"
+    android:weightSum="1"
+    android:paddingLeft="26dp"
+    android:paddingRight="26dp"
+    android:paddingTop="26dp"
+    android:paddingBottom="26dp"
+    >
+
+    <TextView android:id="@+id/text"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	android:text="@string/player_name"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/file_name"
+        android:layout_gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/status"
+        android:layout_gravity="center"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+	android:layout_weight="1"
+	>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/prev_name"
+            android:id="@+id/prev_button"
+            android:layout_weight="1"
+	    />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/next_name"
+            android:id="@+id/next_button"
+            android:layout_weight="1"
+	    />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reload_name"
+        android:id="@+id/reload_button"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

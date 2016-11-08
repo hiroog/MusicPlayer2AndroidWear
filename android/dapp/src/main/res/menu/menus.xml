@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:ts=4 sw=4:
+-->
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+	<item
+		android:id="@+id/menu_settings"
+		android:title="@string/menu_settings"
+	/>
+
+	<item
+		android:id="@+id/menu_openwear"
+		android:title="@string/menu_openwear"
+	/>
+
+
+	<item
+		android:id="@+id/menu_selectall"
+		android:title="@string/menu_selectall"
+	/>
+
+
+	<item
+		android:id="@+id/menu_resetall"
+		android:title="@string/menu_resetall"
+	/>
+
+<!--
+	<item
+		android:id="@+id/menu_about"
+		android:title="@string/menu_about"
+	/>
+-->
+
+</menu>
+
+
+
+

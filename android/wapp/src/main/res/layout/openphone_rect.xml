@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".TopActivity" tools:deviceIds="wear_square"
+    android:weightSum="1">
+
+    <TextView android:id="@+id/text"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	android:text="@string/player_name"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="126dp"
+        android:text="@string/open_name"
+        android:id="@+id/open_button"
+        android:layout_gravity="center"
+        android:layout_weight="0.28" />
+
+
+</LinearLayout>

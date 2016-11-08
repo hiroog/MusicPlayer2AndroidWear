@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:ts=4 sw=4
+-->
+
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:title="@string/title_settings">
+
+
+
+<!--
+
+	<PreferenceCategory
+		android:title="@string/settings_category_title"
+		android:key="category_settings"
+		android:order= "2"
+		>
+
+
+
+		<ListPreference
+			android:key="loop_vfp"
+			android:title="@string/setting_vfp_loop"
+			android:dialogTitle="@string/setting_vfp_loop"
+			android:entries="@array/vfp_loop_entries"
+			android:entryValues="@array/vfp_loop_values"
+			android:order= "0"
+			android:defaultValue= "10000000"/>
+
+
+		<ListPreference
+			android:key="loop_vfp2"
+			android:title="@string/setting_vfp2_loop"
+			android:dialogTitle="@string/setting_vfp2_loop"
+			android:entries="@array/vfp2_loop_entries"
+			android:entryValues="@array/vfp2_loop_values"
+			android:order= "1"
+			android:defaultValue= "10000000"/>
+
+
+		<ListPreference
+			android:key="loop_matrix"
+			android:title="@string/setting_matrix_loop"
+			android:dialogTitle="@string/setting_matrix_loop"
+			android:entries="@array/matrix_loop_entries"
+			android:entryValues="@array/matrix_loop_values"
+			android:order= "2"
+			android:defaultValue= "500000"/>
+
+
+
+
+	</PreferenceCategory>
+
+
+-->
+
+
+	<PreferenceCategory
+		android:title="@string/web_category_title"
+		android:key="category_web"
+		android:order= "3"
+		>
+
+	</PreferenceCategory>
+
+
+</PreferenceScreen>

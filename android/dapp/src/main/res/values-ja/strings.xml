@@ -1,0 +1,33 @@
+<resources>
+
+
+    <string name="app_name">Music Player2 for Android Wear</string>
+    <string name="short_name">Music Player2</string>
+    <string name="open_name">Wearable の Player を開く</string>
+    <string name="upload_name">転送 (同期リストに追加)</string>
+    <string name="remove_name">削除</string>
+    <string name="all_name">全選択</string>
+    <string name="change_name">同期リスト</string>
+    <string name="music_name">＜フォルダ表示に戻る</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_openwear">Wearable の Player を開く</string>
+    <string name="menu_selectall">全選択</string>
+    <string name="menu_resetall">選択解除</string>
+    <string name="menu_about">About</string>
+    <string name="remote_list_name">Wearable (同期リスト)</string>
+    <string name="local_list_name">この端末</string>
+
+    <string name="append_msg">同期リストに追加します</string>
+    <string name="files_msg">ファイル</string>
+    <string name="delete_msg">削除します</string>
+    <string name="yes_msg">OK</string>
+    <string name="no_msg">キャンセル</string>
+    <string name="busy_msg">しばらくお待ちください</string>
+
+    <string name="title_settings">設定</string>
+    <string name="web_category_title">Web</string>
+
+
+
+
+</resources>

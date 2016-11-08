@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MusicPlayer2 for Android Wear</string>
+    <string name="player_name">Music Player2</string>
+    <string name="play_name">Play</string>
+    <string name="stop_name">Stop</string>
+    <string name="volp_name">Vol +</string>
+    <string name="volm_name">Vol -</string>
+    <string name="next_name">Next</string>
+    <string name="prev_name">Prev</string>
+    <string name="pause_name">Pause</string>
+    <string name="resume_name">Resume</string>
+    <string name="reload_name">Refresh</string>
+    <string name="open_name">Open Utility on Phone</string>
+    <string name="open_action">Open</string>
+    <string name="stop_action">Close</string>
+    <string name="volume_name">Volume: </string>
+
+
+</resources>
